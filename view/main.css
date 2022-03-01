@@ -1,0 +1,123 @@
+body{
+    margin: 0px 20px 0px 60;   
+}
+
+form{
+    margin-bottom: 0;
+}
+
+li {
+    margin-right: 25px;
+}
+
+label{
+    margin-left: 13px;
+}
+
+.data p{
+    margin-left: 13px;
+    font-weight: bold;
+}
+
+.error {
+    font-weight: bold;  
+    border: 1px solid;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #FFECBB;
+}
+
+.up{
+    font: 16px 'Times New Roman';
+    margin-bottom: 1px;
+    text-align: right;
+}
+
+.btn{
+    background: #EFEFEF; /* Серый цвет фона */
+    /*color: #fff;*/ /* Белый цвет текста */
+    padding: 2.5px 6px 2.5px 6px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    border: 1px solid;
+    text-align: right;
+}
+
+.products p {
+    margin-top: 0px;
+    margin-bottom: 2px; 
+    text-align: center; 
+}
+
+
+.product-wrapper {
+    display: block;
+    float: left; /*Задаем обтекание*/
+    font-size: 18px;
+    width: 300px; /*Фиксируем ширину блока*/
+    margin: 0px 12px 10px 12px;
+    border: 1px solid;
+    padding-bottom: 30px;
+}
+
+.product-wrapper input {
+    text-align: left; 
+    float: left;
+}
+
+.hrLine{
+    width: 100%;   
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+}
+
+.hrLine2{
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+
+.rightButtons{
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.products{
+    margin: 0 auto;/*центрируем ее*/
+    list-style: none;
+    padding: 5px 0px 0px 120px;
+    height: 115px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+
+.product {
+    display: block;
+    border: 3px solid;
+    text-decoration: none;
+    z-index: 0;
+    height: 155px;
+}
+
+.buttons{
+    width:  100%; 
+    border-spacing: 0;
+   }
+   
+.buttons td {
+    width: 50%;
+    vertical-align: central;
+    padding-bottom: 0px;
+ }
+ 
+ .h1m{
+    margin: 0px;  
+    white-space: nowrap;
+    float: left;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+ }
+
+.cnt{
+  text-align: center;  
+  font-size: 20px;
+}
